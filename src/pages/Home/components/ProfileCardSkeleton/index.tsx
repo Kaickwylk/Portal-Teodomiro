@@ -1,6 +1,6 @@
-import { Card, ProfileCardSkeletonContainer } from './styles'
-import Skeleton from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
+import { Card, ProfileCardSkeletonContainer } from "./styles";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 export function ProfileCardSkeleton() {
   return (
@@ -19,5 +19,5 @@ export function ProfileCardSkeleton() {
         </header>
       </Card>
     </ProfileCardSkeletonContainer>
-  )
+  );
 }

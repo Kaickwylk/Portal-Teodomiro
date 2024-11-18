@@ -1,4 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+
+// src/global-styles.ts
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -8,21 +10,21 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   *::-webkit-scrollbar {
-        width: 22px;
-        height: 22px;
-        border-radius: 9999px;
-    }
+    width: 22px;
+    height: 22px;
+    border-radius: 9999px;
+  }
 
   *::-webkit-scrollbar-corner {
-      background-color: transparent;  
+    background-color: transparent;  
   }
 
   *::-webkit-scrollbar-thumb {
-      width: 6px;
-      background-color: transparent;
-      border-radius: 80px;
-      box-shadow: inset 0 0 0px 6px ${(props) => props.theme.blue};
-      border: solid 10px transparent;
+    width: 6px;
+    background-color: transparent;
+    border-radius: 80px;
+    box-shadow: inset 0 0 0px 6px ${(props) => props.theme.blue};
+    border: solid 10px transparent;
   }
 
   :root {
@@ -36,12 +38,21 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme['base-background']};
-    color: ${(props) => props.theme['base-text']};
+    background: ${(props) => props.theme["base-background"]};
+    color: ${(props) => props.theme["base-text"]};
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, textarea, button {
     font: 400 1.6rem Nunito, sans-serif;
   }
-`
+
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+`;

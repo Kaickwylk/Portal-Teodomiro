@@ -1,72 +1,71 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const PostCardContainer = styled.main`
+export const Card = styled.div`
+  width: 100%;
+  max-width: 300px;
+  background-color: #C0C0C0;
+  border-radius: 30px;
+  border: 2px solid #800080;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 1.1);
+  margin: 20px auto; /* Centraliza o card */
+  overflow: hidden;
+  
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+`;
+
+export const Header = styled.div`
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 
-  width: 41.6rem;
-
-  background-color: ${(props) => props.theme['base-post']};
-
-  padding: 3.2rem;
-
-  border-radius: 1rem;
-
-  &:hover {
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-      both;
-    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    border: 2px solid ${(props) => props.theme['base-label']};
-    cursor: pointer;
-  }
-
-  @-webkit-keyframes scale-up-center {
-    0% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-    100% {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
-    }
-  }
-  @keyframes scale-up-center {
-    0% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-    100% {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1);
-    }
-  }
-`
-
-export const Title = styled.div`
-  display: flex;
-  margin-bottom: 2rem;
-  line-height: 3.2rem;
-
-  h3 {
-    max-width: 27.7rem;
-    font-size: 2rem;
-    color: ${(props) => props.theme['base-title']};
+  img {
+    border-radius: 50%;
+    width: 10px;
+    height: 40px;
+    margin-right: 100px;
   }
 
   span {
-    color: ${(props) => props.theme['base-span']};
-    font-size: 1.4rem;
-    width: 7.5rem;
-    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
   }
-`
+`;
 
-export const Description = styled.div`
+export const Image = styled.img`
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px 0 0 0; /* Ajuste na borda da imagem */
+`;
+
+export const Content = styled.div`
+  padding: 10px;
+
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  p {
+    font-size: 14px;
+    color: black;
+  }
+`;
+
+export const Footer = styled.div`
   display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
 
-  max-height: 13.5rem;
-  line-height: 2.7rem;
-
-  overflow: auto;
-  overflow: overlay;
-`
+  div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+`;
