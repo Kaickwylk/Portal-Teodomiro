@@ -383,7 +383,6 @@ import m from '../../assets/images/m.jpeg';
 import h from '../../assets/images/h.jpeg';
 
 
-import Teatrocasamento from '../../assets/videos/teatrocasamento.mp4';
 
 import forro1 from '../../assets/videos/arraia1.mp4';
 import forro2 from '../../assets/videos/arraia2.mp4';
@@ -555,17 +554,7 @@ export function Home() {
 
 
 
-     {
-      id: '12',
-      user: '',
-      avatar: logojornal,
-      title: 'Apresentação do Teatro: Casamento na roça',
-      date: '2024',
-      body: '',
-      images: [],
-      videos: [Teatrocasamento] // Aqui você adiciona o vídeo
-    
-    },
+
      
     {
       id: '13',
