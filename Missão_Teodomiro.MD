@@ -9,7 +9,7 @@ Se você está lendo isso, significa que a responsa está com você agora! O Jor
 
 ##  Como tudo começou?
 
-O Jornal Teodomiro começou com uma ideia do Vice-Diretor Joãozinho e o Diretor Célio, que queria fazer uma homenagem para as mães. A partir daí, tudo começou a se desenrolar. Mas, para garantir que nossas memórias não se perdessem, eu, percebi que precisávamos de algo mais permanente e acessível. Foi assim que criei o Portal Teodomiro, usando uma base de código do André Viapina, que modifiquei para atender nossas necessidades, desenvolvendo o site em ReactJS e TypeScript. O objetivo? Criar um lugar onde cada história, cada foto, cada momento, tivesse um espaço para ser guardado e revivido ao longo dos anos.
+O Jornal Teodomiro começou com uma ideia do Vice-Diretor Joãozinho e o Diretor Célio, que queria fazer uma homenagem para as mães. A partir daí, tudo começou a se desenrolar. Mas, para garantir que nossas memórias não se perdessem, eu, percebi que precisávamos de algo mais permanente e acessível. Foi assim que criei o Portal Teodomiro, usando uma base de código do André Viapiana, que modifiquei para atender nossas necessidades, desenvolvido o site em TypeScript. O objetivo? Criar um lugar onde cada história, cada foto, cada momento, tivesse um espaço para ser guardado e revivido ao longo dos anos.
 
  Além disso, a escola conta com uma câmera muita boa (desde que sabendo usar),  que vai ser super útil para registrar todos os momentos! Seja para fotos de eventos ou momentos do dia a dia, essa câmera vai ajudar muito a capturar a essência de tudo o que vivemos e fazer com que o conteúdo fique ainda mais rico.  
 
