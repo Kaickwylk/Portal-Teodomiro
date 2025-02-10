@@ -55,6 +55,9 @@ export const StyledInput = styled.input`
   margin-top: 1.2rem;
   margin-bottom: 4.8rem;
   width: 100%; /* Campo de input ocupa 100% da largura */
+  border-radius: 30px;
+  
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 1.1);
   
   outline: 1px solid ${(props) => props.theme["base-border"]};
   border: none;

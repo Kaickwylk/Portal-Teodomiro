@@ -16,7 +16,7 @@ export const HomeContainer = styled.div`
 
 export const PostList = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 2fr); /* Exibe dois itens por linha */
+  grid-template-columns: repeat(1, 2fr); /* Exibe dois itens por linha */
   gap: 16px;
   width: 100%;
   max-width: 1200px;
@@ -27,12 +27,12 @@ export const PostList = styled.div`
   }
 `;
 
+
 export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  
   padding: 10px;
   position: fixed;
   bottom: 0;
@@ -42,9 +42,11 @@ export const Footer = styled.footer`
   a {
     color: #1e90ff;
     text-decoration: none;
+    font-size: clamp(1rem, 1.5vw, 1.4rem); /* Ajusta o tamanho da fonte dinamicamente */
   }
 
   a:hover {
     text-decoration: underline;
+    font-size: clamp(1.2rem, 2vw, 1.6rem); /* Ajusta o tamanho ao passar o mouse */
   }
 `;
