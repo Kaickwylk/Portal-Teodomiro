@@ -766,6 +766,12 @@ export function Home() {
               <br /> Estamos ansiosos para ver todas as conquistas que vocês alcançarão! Parabéns, Formandos de 2024! O futuro é de vocês!
 
               </p>
+              <div style={{ textAlign: 'right', marginTop: '10px' }}>
+                <a href="https://www.instagram.com/terceiraoteodomiro_2024" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <FontAwesomeIcon icon={faInstagram} style={{ marginLeft: "8px" }} />
+                </a>
+              </div>
+
                </div>
           ),
           
